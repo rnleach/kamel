@@ -25,6 +25,8 @@ else
 endif
 
 # -------------------------------------------------------------------------------------------------
+# enable some time functions for POSIX
+CFLAGS += -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_GNU_SOURCE
 
 # glib - for testing
 CFLAGS += `pkg-config --cflags glib-2.0`

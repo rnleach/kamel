@@ -15,7 +15,7 @@ main(int argc, char *argv[static 1])
     setlocale(LC_ALL, "");
     g_test_init(&argc, &argv, NULL);
 
-//    g_test_add_func("/kamel/a_function", test_a_function);
+    //    g_test_add_func("/kamel/a_function", test_a_function);
 
     //
     // Run tests
